@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<script>
+</script>
+</head>
+
+<body>
+
+<script> 
+   var nom = ["C","L","A","R","A"];
+   var posicio=0;
+    while (posicio<nom.length){   
+        if (isNaN(nom[posicio])) {
+
+             if (nom[posicio]=="A"|| nom[posicio]== "E"|| nom[posicio]=="I"||nom[posicio]=="O"||nom[posicio]=="U"){
+                 console.log("He trobat la VOCAL: "+nom[posicio]);
+                 posicio++;
+             }
+        
+            else {
+                console.log("He trobat la CONSONANT: "+nom[posicio]);
+                posicio++;
+             }
+        }
+
+        else {console.log("Els noms de persones no contenen el número: "+nom[posicio]);
+        posicio++;   }
+            
+    }
+
+</script>
+
+</body>
+
+</html>

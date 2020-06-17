@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<script>
+</script>
+</head>
+
+<body>
+
+<script> 
+   const nom = ["C","L","A","R","A",];
+   
+   let acc = nom.reduce((acc, val) => acc.set(val, 1 + (acc.get(val) || 0)), new Map());
+
+console.log(acc);
+
+
+
+
+
+</script>
+
+</body>
+
+</html>
